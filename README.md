@@ -1,0 +1,13 @@
+Let's assume that you are going to start a bank and you have to support following functionalitiesEach account maintains basic demographic information, i.e., Name, DOB (DDMMYYYY), Gender, Account-type. Accounts could be of three types - FixedDeposit, Saving or Current. Name, DOB and Account type cannot be changed.
+However, different types of account have different interest rates.  Bank may also open new account Type in future, e.g., Demat account. (5 marks)Same person may hold  more than one. (2 marks)Withdrawal or deposit are not allowed in FixedDeposit after an initial deposit but person should be able to query the amount at any time and for future by giving a future date. 
+There is a minimum holding time of 1 year from the start date of account, after that a person can withdraw the money terminating the account.
+However, as long as the account remains, it keeps accruing interest. 
+The FD account has a compound interest rate of 10%. (5 marks)Saving/Current allow withdrawal and deposit and can be closed anytime. 
+As long as they remain, a person can query  the current/future amount. 
+The accounts cannot be negative - unless allowed by bank for its selected customers. 
+The interest rate of Saving is 6% and current is 3%. The interest rates may change in future or bank may also change the way to calculate interest. (5 marks)A person should be able to opt for different services for their account based on payment basis, e.g., a person may opt for one or more  of the following service that bank is offering: priority queuing, personal manager, cash delivered at home, etc. Bank may offer more services in future.
+(5 marks)Any number of people should be able to open accounts. 
+You should have functionality to open/close a single account or receiving a text file  of multiple entry type:   Name DOB  Gender  and open/close multiple accounts at once (3 marks)As the program begins, it will read a textfile to load the information about existing accounts. Change in accounts will also be written back to the textfile. The textfile must be written before quitting the program or you will loose information. All precaution should be taken to make sure that you do not loose information (or loose minimal information) in case of a crash etc. (5 marks)
+ 
+Through the test file, we should be able to check Open/close of single and multiple accountsDeposit/withdrawal in accountsQuery of accountsAdditional services available for account, services that one has purchased, add/remove a service.Different accounts that one is opting
+Once I run the test file, it should ideally display a menu and wait for input and continue to wait after completing one operation till I do not quit.
