@@ -1,0 +1,6 @@
+
+public enum BankServices {
+	
+	PRIORITY_QUEUING, PERSONAL_MANAGER, CASH_DELIVERED_AT_HOME
+
+}
